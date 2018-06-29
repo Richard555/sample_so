@@ -1,6 +1,6 @@
 all:
 	make so
-	$(CXX) main.c libmylib.so -o a1.out
+	$(CXX) main.c libmylib.so.1.0.0 -o a1.out
 
 	make lib
 	$(CXX) main.c libmylib.a -o a2.out	
